@@ -142,8 +142,6 @@ header{
 }
 
 .novidades{
-    background-color: #f5dcdc;
-    background: linear-gradient(#f5dcdc, #bebef4);
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5dcdc+0,bebef4+100 */
     background: #f5dcdc; /* Old browsers */
     background: -moz-linear-gradient(top, #f5dcdc 0%, #bebef4 100%); /* FF3.6-15 */
