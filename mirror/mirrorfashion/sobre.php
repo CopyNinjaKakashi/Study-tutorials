@@ -1,39 +1,17 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Sobre a Mirror Fashion</title>
+    <!--cabecalho -->
+    <?php
+        $cabecalho_title = "Sobre a Mirror Fashion";
+        @$cabecalho_css ='
+                        <link rel="stylesheet" href="css/sobre.css">
+                        <link rel="stylesheet" href="css/estilos.css">
+                        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 969px)">
+                        <link rel="stylesheet" href="css/mobile_sobre.css" media="(max-width: 969px)">
+                        ';
+        include("cabecalho.php");
+    ?>
 
-   <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 969px)">
-    <link rel="stylesheet" href="css/mobile_sobre.css" media="(max-width: 969px)">
-    
-</head>
-
-<body>
-
-    <header class="container">
-        <h1> <img src="img/logo.png" alt="Mirror Fashion"> </h1>
-
-        <p class="sacola">
-            nenhum item na sacola
-        </p>
-
-        <nav class="menu-opcoes">
-            <ul>
-                <li> <a href="#"> Sua Conta </a> </li>
-                <li> <a href="#"> Lista de desejos </a> </li>
-                <li> <a href="#"> Cartão felicidade </a> </li>
-                <li> <a href="sobre.html"> Sobre </a> </li>
-                <li> <a href="#"> Ajuda </a> </li>
-            </ul>
-        </nav>
-    </header>
-
+    <!-- article -->
     <article class="container">
         <section class="sobreMirror">
             <h1 class="titulo"> A Mirror Fashion </h1>
@@ -109,19 +87,7 @@
             </ul>
         </section>
     </article>
+    <!-- fim articles-->
 
-    <footer>
-        <div class="container">
-            <img src="img/logo-rodape.png" alt="Logo Mirror fashion">
-
-            <ul class="social">
-                <li> <a href="http://facebook.com/mirrorfashion"> Facebook </a> </li>
-                <li> <a href="http://twitter.com/mirrorfashion"> Twitter </a> </li>
-                <li> <a href="http://plus.google.com/mirrorfashion"> Google </a> </li>
-            </ul>
-        </div>
-    </footer>
-
-</body>
-
-</html>
+    <!-- footer -->
+    <?php include("rodape.php"); ?>
