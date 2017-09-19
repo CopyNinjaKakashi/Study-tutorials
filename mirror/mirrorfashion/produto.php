@@ -14,7 +14,7 @@
                 <h1> Fuzzy Cardigan </h1>
                 <p> por apenas R$ 129,90 </p>
 
-                <form>
+                <form action="checkout.php" method="POST">
                     <fieldset class="cores">
                         <legend>Escolha a cor </legend>
 
@@ -37,16 +37,20 @@
                     <fieldset class="tamanhos">
                         <legend> Escolha o tamanho: </legend>
 
-                        <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+                        <input type="range" min="36" max="46" value="42" 
+                               step="2" name="tamanho" id="tamanho">
                     </fieldset>
 
                     <input type="submit" class="comprar" value="Comprar">
+
+                    <input type="hidden" name="nome" value="Fuzzy Cardigan">
+                    <input type="hidden" name="preco" value="129.00">
 
                 </form>
 
             </div>
 
-            <div class="deatalhe">
+            <div class="detalhes">
                 <h2> Detalhes do produto</h2>
 
                 <p>Esse é o melhor casaco de Cardigã que você já viu. Excelente material italiano com estampa desenhada pelos
