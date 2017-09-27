@@ -170,6 +170,7 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="js/converteMoeda.js"></script>
     <script type="text/javascript" src="js/validate.js"></script>
     <script type="text/javascript" src="js/jquery.js"> </script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
