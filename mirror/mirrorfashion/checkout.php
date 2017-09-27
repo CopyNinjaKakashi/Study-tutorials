@@ -5,27 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title> Checkout Mirror Fashion</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-flatly.css">
     <link rel="stylesheet" href="css/checkout.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="nav-header">
-            <a class="navbar-brand" href="index.php"> Mirror Fashion </a>
+            <a class="navbar-brand" href="index.php">
+                <img src="img/logo-rodape.png" alt="Mirror Fashion">
+            </a>
 
             <button class="navbar-toggle" type="button"
-                    data-target=" .navbar-collapse" data-toggle="collapse">
-                    Menu
+                    data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="glyphicon glyphicon-align-justify"></span>
             </button>
         </div>
 
         <ul class="nav navbar-nav collapse navbar-collapse">
-            <li><a href="sobre.php"> Sobre </a> </li>
-            <li><a href="#"> Ajuda </a></li>
-            <li><a href="#"> Perguntas frequentas </a></li>
-            <li><a href="#"> Entre em contato </a></li>
+            <li>
+                <a href="sobre.php">
+                     Sobre  
+                     <span class="glyphicon glyphicon-home"></span>
+                </a> 
+            </li>
+            
+            <li>
+                <a href="#">
+                     Ajuda 
+                     <span class="glyphicon glyphicon-question-sign"></span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#"> 
+                    Perguntas frequentas 
+                    <span class="glyphicon glyphicon-list-alt"></span> 
+                </a>
+            </li>
+
+            <li>
+                <a href="#"> 
+                    Entre em contato 
+                    <span class="glyphicon glyphicon-bullhorn"></span>
+                </a>
+            </li>
         </ul>
     </nav>
 
