@@ -48,6 +48,19 @@
         <!-- fim . menu-departamento -->
 
         <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+
+        <a href="#" class="pause"></a>
+
+        <!-- MINHA VERSÃO
+        <button type="button" onclick="play()">
+                Play
+        </button>
+
+        <button type="button" onclick="pause()">
+                Pause
+        </button>
+        -->
+
         <!-- fim container destaque -->
     </div>
 
@@ -160,6 +173,8 @@
                 </ol>
             </section>
     </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
 
     <!-- footer -->
     <?php include("rodape.php"); ?>

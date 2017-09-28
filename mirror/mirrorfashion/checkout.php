@@ -93,10 +93,24 @@
                             </dd>
 
                             <dt> Preço </dt>
-                            <dd>
+                            <dd id="preco">
                                 <?= $_POST['preco'] ?>
                             </dd>
                         </dl>
+
+                        <div class="form-group">
+                            <label for="qt"> Quantidade </label>
+                            <input id="qt" class="form-control" type="number" 
+                                    min="0" max="99" value="1">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="total"> Total </label>
+                            <output id="total" class="form-control"> <!--for="qt valor" -->
+                                R$ <?= $_POST["preco"] ?>
+                            </output>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -170,10 +184,14 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="js/converteMoeda.js"></script>
     <script type="text/javascript" src="js/validate.js"></script>
     <script type="text/javascript" src="js/jquery.js"> </script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/converteMoeda.js"></script>
+    <script type="text/javascript" src="js/testaConversao.js"></script> 
+
+    <script type="text/javascript" src="js/total.js"></script>
 
 </body>
 
