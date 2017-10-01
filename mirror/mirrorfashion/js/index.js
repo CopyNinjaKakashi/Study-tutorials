@@ -20,6 +20,24 @@ controle.onclick = function(){
     return false;
 };
 
+/*
+ * JQUERY
+ * 
+ */
+
+$('.novidades').addClass('painel-compacto');
+$('.mais-vendidos').addClass('painel-compacto');
+
+$('.novidades button').click(function(){
+    $('.novidades').removeClass('painel-compacto');
+});
+
+$('.mais-vendidos button').click(function(){
+    $('.mais-vendidos').removeClass('painel-compacto');
+});
+
+
+
 
 
 /*  MINHA VERSAO

@@ -5,6 +5,8 @@
         $cabecalho_css = ' <link rel="stylesheet" href="css/reset.css">
                            <link rel="stylesheet" href="css/estilos.css">
                            <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
+                           <link href="http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script"
+                           rel="stylesheet">
                           ';
         include("cabecalho.php");
     ?>
@@ -116,64 +118,119 @@
                         </figure>
                     </a>
                 </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura13.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura14.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura15.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
             </ol>
+
+            <button type="button" > Mostra mais </button>
+
         </section>
 
         <section class="painel mais-vendidos">
-                <h2> Mais vendidos </h2>
-                <ol>
-                    <li>
-                        <a href="produto.php">
-                            <figure>
-                                <img src="img/produtos/miniatura7.png">
-                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="produto.php">
-                            <figure>
-                                <img src="img/produtos/miniatura8.png">
-                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="produto.php">
-                            <figure>
-                                <img src="img/produtos/miniatura9.png">
-                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="produto.php">
-                            <figure>
-                                <img src="img/produtos/miniatura10.png">
-                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="produto.php">
-                            <figure>
-                                <img src="img/produtos/miniatura11.png">
-                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="produto.php">
-                            <figure>
-                                <img src="img/produtos/miniatura12.png">
-                                <figcaption>Fuzz Cardigan por R$129,90</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                </ol>
-            </section>
+            <h2> Mais vendidos </h2>
+            <ol>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura7.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura8.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura9.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura10.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura11.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="produto.php">
+                        <figure>
+                            <img src="img/produtos/miniatura12.png">
+                            <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                <a href="produto.php">
+                    <figure>
+                        <img src="img/produtos/miniatura13.png">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="produto.php">
+                    <figure>
+                        <img src="img/produtos/miniatura14.png">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="produto.php">
+                    <figure>
+                        <img src="img/produtos/miniatura15.png">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                </a>
+            </li>
+        </ol>
+
+        <button type="button" > Mostra mais </button>
+
+        </section>
     </div>
 
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 
     <!-- footer -->
